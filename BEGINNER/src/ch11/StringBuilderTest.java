@@ -11,7 +11,7 @@ public class StringBuilderTest {
 		buffer.append(" and");
 		buffer.append(" android");
 		buffer.append(" programming is fun !!");
-		System.out.println("연산후 buffer 메모리 주소 " + System.out.identityHashCode(buffer));
+		System.out.println("연산후 buffer 메모리 주소 " + System.identityHashCode(buffer));
 		
 		javaStr = buffer.toString();
 		System.out.println(javaStr);
